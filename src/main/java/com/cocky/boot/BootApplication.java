@@ -40,7 +40,7 @@ public class BootApplication {
 
 	public static void main(String[] args) {
 		SpringApplication springApplication = new SpringApplication(BootApplication.class);
-		springApplication.setBannerMode(Banner.Mode.OFF);
+		//springApplication.setBannerMode(Banner.Mode.OFF);
 		springApplication.run(args);
 	}
 }
